@@ -20,7 +20,7 @@ const Signin = () => {
                         <CampoDeTexto label="Email" name="email" type="email"  />
                         <CampoDeTexto label="Password" name="passwprd" type="password" />
                         <button className="btn btn-dark mt-3" type="submit">Ingresar</button>
-                        <Link to={`/SingUp`}><button className="btn btn-danger mt-3 ml-3" type="reset">Registrarse</button></Link>
+                        <Link className="btn btn-danger mt-3 ml-3" to={`/SignUp`}>Registrarse</Link>
                         
                     </Form>
                 </div>

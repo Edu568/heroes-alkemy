@@ -1,18 +1,17 @@
 import React from 'react'
 import { useField } from 'formik'
 
-const CampoDeTexto = ({ label,...props }) => {
+const TextField = ({ label,...props }) => {
 
 const [field, meta] = useField(props)
 
     return (
-        <div className="mb-2">  
+        <div className="mb-2">
             <label htmlFor={field.email}>{label}</label>
             <input className="form-control" autoComplete="off"/>
-            
             
         </div>
     )
 }
 
-export default CampoDeTexto
+export default TextField
