@@ -6,6 +6,7 @@ import Home from './Componentes/Home';
 import Navbar from './Componentes/Navbar';
 import Equipo from './Equipo/equipo';
 import Login from './Login/Login';
+import Registrate from './Registrate/Registrate';
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route exact path="/Login">
               <Login />
+            </Route>
+            <Route exact path="/Registrate">
+              <Registrate />
             </Route>
           </Switch>
           <Footer />
