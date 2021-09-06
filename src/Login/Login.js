@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import heroesImg from '../img/heroesFondo.png';
 import Signin from './SignIn/Signin';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

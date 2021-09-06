@@ -6,7 +6,6 @@ import Home from './Componentes/Home';
 import Navbar from './Componentes/Navbar';
 import Equipo from './Equipo/equipo';
 import Login from './Login/Login';
-import SignUp from './Resgistrate/SignUp/SignUp';
 
 
 function App() {
@@ -24,10 +23,8 @@ function App() {
             <Route exact path="/Login">
               <Login />
             </Route>
-            <Route exact path="/SignUp">
-              <SignUp />
-            </Route>
           </Switch>
+          <Footer />
       </BrowserRouter>
     </div>
   );

@@ -2,8 +2,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
-            ESTO ES EN FOOTER
+        <div className="container">
+            <div className="row">
+                <div className="col-6">
+                    <h2>Redes Sociales</h2>
+
+                </div>
+
+            </div>
+            
         </div>
     )
 }
