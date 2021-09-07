@@ -32,7 +32,7 @@ const Signin = () => {
                     <Form>
                         <CampoDeTexto label="Email" name="email" type="email"  />
                         <CampoDeTexto label="Password" name="passwprd" type="password" />
-                        <button className="btn btn-dark mt-3" type="submit">Ingresar</button>
+                        <button className="btn btn-dark mt-3" type="submit">Enviar</button>
                         <Link to={`Registrate`}><button className="btn btn-danger mt-3">Registrate</button></Link>
                         
                         
